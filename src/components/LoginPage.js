@@ -9,7 +9,7 @@ function LoginPage() {
         <h2 style={{ fontWeight: "bold", fontFamily: "Montserrat-light", marginTop: "10px" }}>Welcome to Reimbursement site</h2>
       </div>
       <div className="container align-items-center d-flex justify-content-center">
-        <div className="card" style={{ width: "50rem" }}> <div className="row">
+        <div className="card mb-5" style={{ width: "50rem" }}> <div className="row">
           <div className="col-md-6">
           </div>
           <div className="col-md-6 text-center mb-3">
