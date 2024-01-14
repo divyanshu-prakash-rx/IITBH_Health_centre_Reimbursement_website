@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    background-color:#BAAFF1;
+    padding:20px;
+  }
+
+  .info{
+    text-align: center;
+  }
+
+  .top_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .right_section,.left_section{
+    flex:1;
+    margin: 20px;
+  }
+  
+.right_section label,
+.left_section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.right_section input,
+.left_section input {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.span-container {
+  display: flex;
+  justify-content:flex-start; 
+  
+}
+
+.span-item {
+  margin-left: 100px; }
+
+.circular-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    outline: none;
+    cursor: pointer;
+  }
+  .circular-checkbox:checked {
+    background-color: #333;
+  }
+
+  input[type="text"] ,input[type="file"] {
+    border-radius: 50px; /* Set a higher border-radius for more rounded corners */
+}
+.space
+{
+  padding-top: 10px;
+}
+
+button {
+  border-radius: 50px; 
+  padding: 10px 20px;
+
+}
+
+.bold{
+  font-weight: bold;
+}
