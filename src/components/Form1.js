@@ -256,7 +256,6 @@ function Form1() {
 
                             <label className="mb-2" htmlFor="file">*Copy of Prescription</label>
                             <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required />
-
                         </div>
                     </div>
                 </form>
@@ -286,7 +285,7 @@ function Form1() {
                             the family. </p>
                     </label>
                     </div>
-
+                    <span></span>
 
                         <div className="row">
                             <div className="col m-3">
