@@ -285,7 +285,6 @@ function Form1() {
                             the family. </p>
                     </label>
                     </div>
-                    <span></span>
 
                         <div className="row">
                             <div className="col m-3">
