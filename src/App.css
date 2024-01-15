@@ -1,0 +1,48 @@
+body {
+  background-color: #5bbad5;
+}
+/* login page */
+.qr {
+  border-radius: 30px;
+  padding: 10px;
+}
+.container {
+  height: auto;
+}
+.card {
+  border-radius: 20px;
+  padding: 20px;
+}
+.qr-title {
+  font-family: Outfit, 700;
+  font-size: 22px;
+  font-weight: bold;
+}
+.qr-text {
+  font-family: Outfit, 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+/*Form1*/
+.info {
+    font-family:Montserrat 500;
+  text-align: center;
+  text-decoration: underline;
+}
+.inpbox{
+    width:300px;
+}
+
+.table-custom{
+    --bs-table-bg: transparent !important;
+}
+
+
+.span-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.claimInput{
+  border-radius: 20px;
+}
+
