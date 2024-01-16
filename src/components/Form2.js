@@ -3,7 +3,7 @@ import React from 'react'
 
 function Form1() {
     return (
-        <>    <div className='' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
+        <>    <div className='formwid' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
             <div className='container '>
 
                 <h4 className="info py-4" >MEDICAL CLAIM FORM (OUTDOOR TREATMENT) </h4>
@@ -63,18 +63,18 @@ function Form1() {
                             <label className="mb-1" htmlFor="patientName">*Patient's Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="patientName" name="patientName" />
 
-                            <label className="mb-1" htmlFor="natureOfIllness">*Nature of illness & its period:</label>
+                            <label className="mb-1" htmlFor="natureOfIllness">*Nature of illness:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="natureOfIllness" name="natureOfIllness" />
 
-                            <label className="mb-1" htmlFor="referredHospital">*Referred Hospital Name:</label>
+                            <label className="mb-1" htmlFor="referredHospital">*Treated Hospital Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="referredHospital" name="referredHospital" />
                         </div>
                         
                         <div className="col m-3">
-                            <label className="mb-1" htmlFor="relationship">*Relationship:</label>
+                            <label className="mb-1" htmlFor="relationship">*Relationship with patient:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="relationship" name="relationship" />
 
-                            <label className="mb-1" htmlFor="referringAMADate">*Name of Referring AMA/Date:</label>
+                            <label className="mb-1" htmlFor="referringAMADate">*Name of Referring AMA:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="referringAMADate" name="referringAMADate" />
                         </div>
                     </div>
@@ -88,87 +88,137 @@ function Form1() {
                                     <th scope="col">S.No.</th>
                                     <th scope="col">Particulars</th>
                                     <th scope="col">Total Claim Submitted (Rs)</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1.1</td>
+                                    <td>Imaging/MRI/CT Scan/x-ray/sonography </td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.2</td>
+                                    <td> CBC/Widal/LFT/RFT</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.3</td>
+                                    <td>Urine-RM/Malaria</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>1.4</td>
+                                    <td>TSH, T3, T4 Sr. Electrolytes</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.5</td>
+                                    <td>Any other laboratory Test/s Done</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td>1.6</td>
+                                    <td>No of Consultation Charges( )</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.7</td>
+                                    <td> Miscellaneous Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td>1.8</td>
+                                    <td>Any Other.</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Total(A)</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                
+                            </tbody>
+                        </table></div>
+                        <div className='col'>
+                        <table className="table table-custom ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">S.No.</th>
                                     <th scope="col">Name of the Medicine or Invoice no</th>
                                     <th scope="col">Total Claim Submitted (Rs)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Accommodation/ Bed Charges </td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Registration Fee</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Consultation/ Doctor</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Surgeon Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Nursing Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td>2.1</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
                                 <tr>
-                                    <td>6</td>
-                                    <td>Operation Theater Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>X-ray</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td>2.2</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
                                 <tr>
-                                    <td>8</td>
-                                    <td>Hospital Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>Physiotherapy Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>Blood Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td>2.3</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
+                                <tr>
+                                    <td>2.4</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.5</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.6</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.7</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.8</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    
+                                <td>Total(B)</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                
                             </tbody>
-                        </table></div>
+                        </table>
+                    </div>
                     
                                    
                                    
@@ -177,7 +227,7 @@ function Form1() {
                 <div className=" row d-flex-end">
                     <span className="col col-xs-12">
                         <div className="input-group input-group-sm mb-3">
-                            <span className="input-group-text bg-dark bg-gradient text-white" id="inputGroup-sizing-sm" >Total Claim submitted (Rs):</span>
+                            <span className="input-group-text bg-dark bg-gradient text-white" id="inputGroup-sizing-sm" >Total Claim submitted (A+B):</span>
                             <input type="text" className="form-control" />
                         </div>
                     </span>
@@ -236,7 +286,7 @@ function Form1() {
                 </div>
                 
                 <div class="ms-2">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                    <input class="form-check-input mt-3 mb-1" type="checkbox" value="" id="flexCheckDefault"/>
                     <label class="form-check-label" for="flexCheckDefault">
                         <p> 
                             I hereby declare that the statement made in this application are true to the best of my knowledge and belief/and that
