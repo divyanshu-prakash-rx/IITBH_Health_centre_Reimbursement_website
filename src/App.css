@@ -36,8 +36,6 @@ body {
 .table-custom{
     --bs-table-bg: transparent !important;
 }
-
-
 .span-container {
   display: flex;
   justify-content: flex-start;
@@ -45,4 +43,11 @@ body {
 .claimInput{
   border-radius: 20px;
 }
-
+/* options */
+.bgim{
+  background:no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
