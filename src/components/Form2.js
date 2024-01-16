@@ -62,17 +62,17 @@ function Form1() {
                             <label className="mb-1" htmlFor="patientName">*Patient's Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="patientName" name="patientName" />
 
-                            <label className="mb-1" htmlFor="natureOfIllness">*Nature of illness & its period:</label>
+                            <label className="mb-1" htmlFor="natureOfIllness">*Nature of illness:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="natureOfIllness" name="natureOfIllness" />
 
-                            <label className="mb-1" htmlFor="referredHospital">*Referred Hospital Name:</label>
+                            <label className="mb-1" htmlFor="referredHospital">*Treated Hospital Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="referredHospital" name="referredHospital" />
                         </div>
                         <div className="col m-3">
-                            <label className="mb-1" htmlFor="relationship">*Relationship:</label>
+                            <label className="mb-1" htmlFor="relationship">*Relationship with patient:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="relationship" name="relationship" />
 
-                            <label className="mb-1" htmlFor="referringAMADate">*Name of Referring AMA/Date:</label>
+                            <label className="mb-1" htmlFor="referringAMADate">*Name of Referring AMA:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="referringAMADate" name="referringAMADate" />
                         </div>
                     </div>
@@ -92,67 +92,61 @@ function Form1() {
                             <tbody>
                                 <tr>
                                     <td>1.1</td>
-                                    <td>Accommodation/ Bed Charges </td>
+                                    <td>Imaging/MRI/CT Scan/x-ray/sonography </td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
                                 </tr>
                                 <tr>
                                     <td>1.2</td>
-                                    <td>Registration Fee</td>
+                                    <td> CBC/Widal/LFT/RFT</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
                                 </tr>
                                 <tr>
                                     <td>1.3</td>
-                                    <td>Consultation/ Doctor</td>
+                                    <td>Urine-RM/Malaria</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                    
                                 </tr>
                                 <tr>
                                     <td>1.4</td>
-                                    <td>Surgeon Charges</td>
+                                    <td>TSH, T3, T4 Sr. Electrolytes</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
                                 </tr>
                                 <tr>
                                     <td>1.5</td>
-                                    <td>Nursing Charges</td>
+                                    <td>Any other laboratory Test/s Done</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
 
                                 </tr>
                                 <tr>
                                     <td>1.6</td>
-                                    <td>Operation Theater Charges</td>
+                                    <td>No of Consultation Charges( )</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
                                 </tr>
                                 <tr>
                                     <td>1.7</td>
-                                    <td>X-ray</td>
+                                    <td> Miscellaneous Charges</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     
 
                                 </tr>
                                 <tr>
                                     <td>1.8</td>
-                                    <td>Hospital Charges</td>
+                                    <td>Any Other.</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                    
                                 </tr>
                                 <tr>
-                                    <td>1.9</td>
-                                    <td>Physiotherapy Charges</td>
+                                    
+                                    <td>Total(A)</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                    
                                 </tr>
-                                <tr>
-                                    <td>1.10</td>
-                                    <td>Blood Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                   
-
-                                </tr>
+                                
                             </tbody>
                         </table></div>
                         <div className='col'>
@@ -214,17 +208,12 @@ function Form1() {
 
                                 </tr>
                                 <tr>
-                                    <td>2.9</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-
-                                </tr>
-                                <tr>
-                                    <td>2.10</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                <td>Total(B)</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
+                                
                             </tbody>
                         </table>
                     </div>
@@ -236,7 +225,7 @@ function Form1() {
                 <div className=" row d-flex-end">
                     <span className="col col-xs-12">
                         <div className="input-group input-group-sm mb-3">
-                            <span className="input-group-text bg-dark bg-gradient text-white" id="inputGroup-sizing-sm" >Total Claim submitted (Rs):</span>
+                            <span className="input-group-text bg-dark bg-gradient text-white" id="inputGroup-sizing-sm" >Total Claim submitted (A+B):</span>
                             <input type="text" className="form-control" />
                         </div>
                     </span>
