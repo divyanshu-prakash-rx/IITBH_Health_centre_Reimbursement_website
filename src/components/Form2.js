@@ -86,87 +86,148 @@ function Form1() {
                                     <th scope="col">S.No.</th>
                                     <th scope="col">Particulars</th>
                                     <th scope="col">Total Claim Submitted (Rs)</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1.1</td>
+                                    <td>Accommodation/ Bed Charges </td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.2</td>
+                                    <td>Registration Fee</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.3</td>
+                                    <td>Consultation/ Doctor</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>1.4</td>
+                                    <td>Surgeon Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.5</td>
+                                    <td>Nursing Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td>1.6</td>
+                                    <td>Operation Theater Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1.7</td>
+                                    <td>X-ray</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td>1.8</td>
+                                    <td>Hospital Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>1.9</td>
+                                    <td>Physiotherapy Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>1.10</td>
+                                    <td>Blood Charges</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                   
+
+                                </tr>
+                            </tbody>
+                        </table></div>
+                        <div className='col'>
+                        <table className="table table-custom ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">S.No.</th>
                                     <th scope="col">Name of the Medicine or Invoice no</th>
                                     <th scope="col">Total Claim Submitted (Rs)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Accommodation/ Bed Charges </td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Registration Fee</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Consultation/ Doctor</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Surgeon Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Nursing Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td>2.1</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
                                 <tr>
-                                    <td>6</td>
-                                    <td>Operation Theater Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
-
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>X-ray</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td>2.2</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
                                 <tr>
-                                    <td>8</td>
-                                    <td>Hospital Charges</td>
+                                    <td>2.3</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
                                 </tr>
                                 <tr>
-                                    <td>9</td>
-                                    <td>Physiotherapy Charges</td>
+                                    <td>2.4</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
                                 </tr>
                                 <tr>
-                                    <td>10</td>
-                                    <td>Blood Charges</td>
+                                    <td>2.5</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.6</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.7</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.8</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.9</td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td>2.10</td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
                                     <td><input className='claimInput form-control' type="text" value="" /></td>
 
                                 </tr>
                             </tbody>
-                        </table></div>
+                        </table>
+                    </div>
                     
                                    
                                    
