@@ -58,6 +58,7 @@ function Form1() {
                 </p>
                 <form>
                     <div className="row mb-3 ms-3">
+
                         <div className="col m-3">
                             <label className="mb-1" htmlFor="patientName">*Patient's Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="patientName" name="patientName" />
@@ -68,6 +69,7 @@ function Form1() {
                             <label className="mb-1" htmlFor="referredHospital">*Referred Hospital Name:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="referredHospital" name="referredHospital" />
                         </div>
+                        
                         <div className="col m-3">
                             <label className="mb-1" htmlFor="relationship">*Relationship:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="relationship" name="relationship" />

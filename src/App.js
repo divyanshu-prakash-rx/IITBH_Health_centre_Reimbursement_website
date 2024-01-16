@@ -5,6 +5,8 @@ import Form1 from './components/Form1';
 import React from 'react';
 import Options from './components/Options';
 import Form2 from './components/Form2';
+import Student from './components/Student';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -20,6 +22,9 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/Options" element={<Options />} />
+
+          <Route path="/Student" element={<Student />} />
+
           <Route path="/FormOPD" element={<Form2 />} />
           <Route path="/FormIPD" element={<Form1 />} />
           <Route path="/Thankyou" element={<Thankyou/>} />
