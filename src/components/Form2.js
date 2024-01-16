@@ -284,7 +284,7 @@ function Form1() {
                 </div>
                 
                 <div class="ms-2">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                    <input class="form-check-input mt-3 mb-1" type="checkbox" value="" id="flexCheckDefault"/>
                     <label class="form-check-label" for="flexCheckDefault">
                         <p> 
                             I hereby declare that the statement made in this application are true to the best of my knowledge and belief/and that
