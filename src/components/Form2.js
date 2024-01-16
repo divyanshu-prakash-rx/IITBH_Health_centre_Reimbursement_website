@@ -3,7 +3,7 @@ import React from 'react'
 
 function Form1() {
     return (
-        <>    <div className='' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
+        <>    <div className='formwid' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
             <div className='container '>
 
                 <h4 className="info py-4" >MEDICAL CLAIM FORM (OUTDOOR TREATMENT) </h4>
