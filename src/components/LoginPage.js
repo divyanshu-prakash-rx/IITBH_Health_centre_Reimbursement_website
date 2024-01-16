@@ -38,8 +38,9 @@ function LoginPage() {
                 <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                 <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
               </div>
-              <div className="text-center"> <button type="login" className="btn btn-primary">Login</button></div>
-
+              <div className="text-center">
+              <a className="btn btn-primary" href="/Options"> Login</a>
+</div>
             </form>
           </div>
         </div>

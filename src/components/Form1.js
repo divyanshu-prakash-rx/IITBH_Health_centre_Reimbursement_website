@@ -297,7 +297,7 @@ function Form1() {
 
                             </div>
                             <div className='text-center'>
-                                <button type="button" class="btn btn-primary btn-lg m-3">Submit</button>
+                                <a href="/Thankyou" type="button" class="btn btn-primary btn-lg m-3">Submit</a>
                             </div>
                         </div>
                     </div >

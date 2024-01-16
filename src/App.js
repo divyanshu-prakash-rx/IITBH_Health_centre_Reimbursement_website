@@ -10,6 +10,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Thankyou from './components/Thankyou';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Options" element={<Options />} />
           <Route path="/FormOPD" element={<Form2 />} />
           <Route path="/FormIPD" element={<Form1 />} />
+          <Route path="/Thankyou" element={<Thankyou/>} />
         </Routes >
 
       </Router >
