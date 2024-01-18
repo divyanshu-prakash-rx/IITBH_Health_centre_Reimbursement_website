@@ -6,6 +6,8 @@ import React from 'react';
 import Options from './components/Options';
 import Form2 from './components/Form2';
 import Student from './components/Student';
+import Stdf from './components/Stdf';
+
 
 import {
   BrowserRouter as Router,
@@ -23,7 +25,7 @@ function App() {
           <Route path="/" element={<LoginPage />} />
           <Route path="/Options" element={<Options />} />
 
-          <Route path="/Student" element={<Student />} />
+          <Route path="/Student" element={<Stdf />} />
 
           <Route path="/FormOPD" element={<Form2 />} />
           <Route path="/FormIPD" element={<Form1 />} />
