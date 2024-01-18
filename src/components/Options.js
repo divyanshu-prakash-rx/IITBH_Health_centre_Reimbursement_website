@@ -12,8 +12,8 @@ function Options() {
                          <img className="mb-4 optlogo"src={logo} alt='logo'/>
                         <h5 className="card-title">Choose which claim bill you want to file</h5>
                         <a href="/Student" className="btn btn-primary m-3" style={{ width: "300px" }}>Student</a><br />
-                        <a href="/FormOPD" className="btn btn-primary m-3" style={{ width: "300px" }}>Staff OPD</a><br />
-                        <a href="/FormIPD" className="btn btn-primary m-3" style={{ width: "300px" }}>Staff IPD</a>
+                        <a href="/FormOPD" className="btn btn-primary m-3" style={{ width: "300px" }}>Employee OPD</a><br />
+                        <a href="/FormIPD" className="btn btn-primary m-3" style={{ width: "300px" }}>Employee IPD</a>
 
 
                     </div>
