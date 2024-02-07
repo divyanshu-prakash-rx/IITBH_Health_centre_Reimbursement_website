@@ -5,6 +5,55 @@ function Student() {
   const [formData, setFormData] = useState({
     claimantFirstName: "",
     claimantLastName: "",
+    claimaintID: "",
+    referenceAMA: "",
+    diagnosisName: "",
+    claimaintAge: "",
+    telephoneNo: "",
+    emailID: "",
+    treatmentStart: "",
+    treatmentEnd: "",
+    patientName: "",
+    natureofIllness: "",
+    referredHospital: "",
+    relationship: "",
+    referringAMADate: "",
+    claimT_1_1: "",
+    claimT_1_2: "",
+    claimT_1_3: "",
+    claimT_1_4: "",
+    claimT_1_5: "",
+    claimT_1_6: "",
+    claimT_1_7: "",
+    claimT_1_8: "",
+    claimT_2_1_1: "",
+    claimT_2_1_2: "",
+    claimT_2_2_1: "",
+    claimT_2_2_2: "",
+    claimT_2_3_1: "",
+    claimT_2_3_2: "",
+    claimT_2_4_1: "",
+    claimT_2_4_2: "",
+    claimT_2_5_1: "",
+    claimT_2_5_2: "",
+    claimT_2_6_1: "",
+    claimT_2_6_2: "",
+    claimT_2_7_1: "",
+    claimT_2_7_2: "",
+    claimT_2_8_1: "",
+    claimT_2_8_2: "",
+    HCReferral: "",
+    BillReceipt: "",
+    IDFile: "",
+    prescriptionFile: "",
+    AccountNo: "",
+    BankName: "",
+    expdate: "",
+    IFSC: "",
+    BankBranch: "",
+    Place: "",
+    SubmissionDate: "",
+    signatureFile: ""
     // Add other form fields here
   });
 
@@ -73,56 +122,60 @@ function Student() {
                     />
                   </div>
                 </div>
-                <label className="mb-1" htmlFor="designation">
-                  ID:
-                </label>
+                <label className="mb-1">ID:</label>
                 <input
                   className="form-control mb-2 inpbox"
                   type="text"
-                  id="designation"
-                  name="designation"
+                  id="claimaintID"
+                  name="claimaintID"
+                  value={formData.claimaintID}
+                  onChange={handleChange}
                 />
 
-                <label className="mb-1" htmlFor="department">
-                  Name of reference AMA:
-                </label>
+                <label className="mb-1">Name of reference AMA:</label>
                 <input
                   className="form-control mb-2 inpbox"
                   type="text"
-                  id="department"
-                  name="department"
+                  id="referenceAMA"
+                  name="referenceAMA"
+                  value={formData.referenceAMA}
+                  onChange={handleChange}
                 />
 
-                <label className="mb-1" htmlFor="department">
+                <label className="mb-1">
                   Name of the illness or diagnosis:
                 </label>
                 <input
                   className="form-control mb-2 inpbox"
                   type="text"
-                  id="department"
-                  name="department"
+                  id="diagnosisName"
+                  name="diagnosisName"
+                  value={formData.diagnosisName}
+                  onChange={handleChange}
                 />
               </div>
 
               <div className="col col-xs-12 m-3">
-                <label className="mb-1" htmlFor="employeeCode">
-                  Age:
-                </label>
+                <label className="mb-1">Age:</label>
                 <input
                   className="form-control mb-2 inpbox"
                   type="text"
-                  id="employeeCode"
-                  name="employeeCode"
+                  id="claimaintAge"
+                  name="claimaintAge"
+                  value={formData.claimaintAge}
+                  onChange={handleChange}
                 />
 
-                <label className="mb-1" htmlFor="telNo">
+                <label className="mb-1" htmlFor="telephoneNo">
                   Course/Program:
                 </label>
                 <input
                   className="form-control mb-2 inpbox"
                   type="text"
-                  id="telNo"
-                  name="telNo"
+                  id="telephoneNo"
+                  name="telephoneNo"
+                  value={formData.telephoneNo}
+                  onChange={handleChange}
                   placeholder="00000 00000"
                 />
 
@@ -134,6 +187,8 @@ function Student() {
                   type="text"
                   id="emailId"
                   name="emailId"
+                  value={formData.emailID}
+                  onChange={handleChange}
                   placeholder="name@example.com"
                 />
 
@@ -145,8 +200,10 @@ function Student() {
                     <input
                       className="form-control me-1 mb-2"
                       type="date"
-                      id="claimantName"
-                      name="claimantName"
+                      id="treatmentStart"
+                      name="treatmentStart"
+                      value={formData.treatmentStart}
+                      onChange={handleChange}
                       placeholder="From"
                       style={{ width: "100px" }}
                     />
@@ -155,8 +212,10 @@ function Student() {
                     <input
                       className="form-control mb-2"
                       type="date"
-                      id="claimantName"
-                      name="claimantName"
+                      id="treatmentEnd"
+                      name="treatmentEnd"
+                      value={formData.treatmentEnd}
+                      onChange={handleChange}
                       placeholder="To"
                       style={{ width: "100px" }}
                     />
@@ -177,6 +236,8 @@ function Student() {
                   type="text"
                   id="patientName"
                   name="patientName"
+                  value={formData.patientName}
+                  onChange={handleChange}
                 />
 
                 <label className="mb-1" htmlFor="natureOfIllness">
@@ -187,6 +248,8 @@ function Student() {
                   type="text"
                   id="natureOfIllness"
                   name="natureOfIllness"
+                  value={formData.natureofIllness}
+                  onChange={handleChange}
                 />
 
                 <label className="mb-1" htmlFor="referredHospital">
@@ -197,6 +260,8 @@ function Student() {
                   type="text"
                   id="referredHospital"
                   name="referredHospital"
+                  value={formData.referredHospital}
+                  onChange={handleChange}
                 />
               </div>
 
@@ -209,6 +274,8 @@ function Student() {
                   type="text"
                   id="relationship"
                   name="relationship"
+                  value={formData.relationship}
+                  onChange={handleChange}
                 />
 
                 <label className="mb-1" htmlFor="referringAMADate">
@@ -219,6 +286,8 @@ function Student() {
                   type="text"
                   id="referringAMADate"
                   name="referringAMADate"
+                  value={formData.referringAMADate}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -242,7 +311,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_1"
+                        name="claimT_1_1"
+                        value={formData.claimT_1_1}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -253,7 +325,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_2"
+                        name="claimT_1_2"
+                        value={formData.claimT_1_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -264,7 +339,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_3"
+                        name="claimT_1_3"
+                        value={formData.claimT_1_3}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -275,7 +353,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_4"
+                        name="claimT_1_4"
+                        value={formData.claimT_1_4}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -286,7 +367,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_5"
+                        name="claimT_1_5"
+                        value={formData.claimT_1_5}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -297,7 +381,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_6"
+                        name="claimT_1_6"
+                        value={formData.claimT_1_6}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -308,7 +395,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_7"
+                        name="claimT_1_7"
+                        value={formData.claimT_1_7}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -319,7 +409,10 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_1_8"
+                        name="claimT_1_8"
+                        value={formData.claimT_1_8}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -329,7 +422,7 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                      // Should Calculate automatically
                       />
                     </td>
                   </tr>
@@ -352,14 +445,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_1_1"
+                        name="claimT_2_1_1"
+                        value={formData.claimT_2_1_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_1_2"
+                        name="claimT_2_1_2"
+                        value={formData.claimT_2_1_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -369,14 +468,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_2_1"
+                        name="claimT_2_2_1"
+                        value={formData.claimT_2_2_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_2_2"
+                        name="claimT_2_2_2"
+                        value={formData.claimT_2_2_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -386,14 +491,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_3_1"
+                        name="claimT_2_3_1"
+                        value={formData.claimT_2_3_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_3_2"
+                        name="claimT_2_3_2"
+                        value={formData.claimT_2_3_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -403,14 +514,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_4_1"
+                        name="claimT_2_4_1"
+                        value={formData.claimT_2_4_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_4_2"
+                        name="claimT_2_4_2"
+                        value={formData.claimT_2_4_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -420,14 +537,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_5_1"
+                        name="claimT_2_5_1"
+                        value={formData.claimT_2_5_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_5_2"
+                        name="claimT_2_5_2"
+                        value={formData.claimT_2_5_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -437,14 +560,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_6_1"
+                        name="claimT_2_6_1"
+                        value={formData.claimT_2_6_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_6_2"
+                        name="claimT_2_6_2"
+                        value={formData.claimT_2_6_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -454,14 +583,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_7_1"
+                        name="claimT_2_7_1"
+                        value={formData.claimT_2_7_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_7_2"
+                        name="claimT_2_7_2"
+                        value={formData.claimT_2_7_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -471,14 +606,20 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_8_1"
+                        name="claimT_2_8_1"
+                        value={formData.claimT_2_8_1}
+                        onChange={handleChange}
                       />
                     </td>
                     <td>
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                        id="claimT_2_8_2"
+                        name="claimT_2_8_2"
+                        value={formData.claimT_2_8_2}
+                        onChange={handleChange}
                       />
                     </td>
                   </tr>
@@ -488,7 +629,7 @@ function Student() {
                       <input
                         className="claimInput form-control"
                         type="text"
-                        value=""
+                      // Should Calculate automatically
                       />
                     </td>
                   </tr>
@@ -505,6 +646,7 @@ function Student() {
                   id="inputGroup-sizing-sm"
                 >
                   Total Claim submitted (A+B):
+                  {/* // Should Calculate automatically */}
                 </span>
                 <input type="text" className="form-control" />
               </div>
@@ -516,6 +658,7 @@ function Student() {
                   id="inputGroup-sizing-sm"
                 >
                   Total no of Enclosures:
+                  {/* // Should Calculate automatically */}
                 </span>
                 <input type="text" className="form-control" />
               </div>
@@ -536,8 +679,10 @@ function Student() {
                 <input
                   className="form-control mb-2 inpbox"
                   type="file"
-                  id="file"
-                  name="file"
+                  id="HCReferral"
+                  name="HCReferral"
+                  value={formData.HCReferral}
+                  onChange={handleChange}
                   accept=".jpg, .jpeg, .png"
                   required
                 />
@@ -548,8 +693,10 @@ function Student() {
                 <input
                   className="form-control mb-2 inpbox"
                   type="file"
-                  id="file"
-                  name="file"
+                  id="BillReceipt"
+                  name="BillReceipt"
+                  value={formData.BillReceipt}
+                  onChange={handleChange}
                   accept=".jpg, .jpeg, .png"
                   required
                 />
@@ -562,8 +709,10 @@ function Student() {
                 <input
                   className="form-control mb-2 inpbox"
                   type="file"
-                  id="file"
-                  name="file"
+                  id="IDFile"
+                  name="IDFile"
+                  value={formData.IDFile}
+                  onChange={handleChange}
                   accept=".jpg, .jpeg, .png"
                   required
                 />
@@ -574,8 +723,10 @@ function Student() {
                 <input
                   className="form-control mb-2 inpbox"
                   type="file"
-                  id="file"
-                  name="file"
+                  id="prescriptionFile"
+                  name="prescriptionFile"
+                  value={formData.prescriptionFile}
+                  onChange={handleChange}
                   accept=".jpg, .jpeg, .png"
                   required
                 />
@@ -591,12 +742,16 @@ function Student() {
               {/* <!-- Left Section --> */}
               <div class="col-md-6 custom-side-margin-left">
                 <div class="row mb-4">
-                  <div class="col-sm-4">Name and A/c No.</div>
+                  <div class="col-sm-4"> A/c No.</div>
                   <div class="col-sm-4">
                     <input
                       type="text"
                       class="form-control"
                       placeholder="Input"
+                      id="AccountNo"
+                      name="AccountNo"
+                      value={formData.AccountNo}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -607,6 +762,10 @@ function Student() {
                     <input
                       type="text"
                       class="form-control"
+                      id="BankName"
+                      name="BankName"
+                      value={formData.BankName}
+                      onChange={handleChange}
                       placeholder="Input"
                     />
                   </div>
@@ -618,6 +777,10 @@ function Student() {
                     <input
                       type="text"
                       class="form-control"
+                      id="expdate"
+                      name="expdate"
+                      value={formData.expdate}
+                      onChange={handleChange}
                       placeholder="Input"
                     />
                   </div>
@@ -634,6 +797,10 @@ function Student() {
                     <input
                       type="text"
                       class="form-control"
+                      id="IFSC"
+                      name="IFSC"
+                      value={formData.IFSC}
+                      onChange={handleChange}
                       placeholder="Input"
                     />
                   </div>
@@ -645,6 +812,10 @@ function Student() {
                     <input
                       type="text"
                       class="form-control"
+                      id="BankBranch"
+                      name="BankBranch"
+                      value={formData.BankBranch}
+                      onChange={handleChange}
                       placeholder="Input"
                     />
                   </div>
@@ -656,6 +827,10 @@ function Student() {
                     <input
                       type="text"
                       class="form-control"
+                      id="Place"
+                      name="Place"
+                      value={formData.Place}
+                      onChange={handleChange}
                       placeholder="Input"
                     />
                   </div>
@@ -672,7 +847,10 @@ function Student() {
               <input
                 className="form-control inpbox"
                 type="date"
-                id="dateInput"
+                id="SubmissionDate"
+                name="SubmissionDate"
+                value={formData.SubmissionDate}
+                onChange={handleChange}
               />
             </div>
             <div className="col m-3">
@@ -682,6 +860,8 @@ function Student() {
                 type="file"
                 id="signatureFile"
                 name="signatureFile"
+                value={formData.signatureFile}
+                onChange={handleChange}
                 accept="image/*"
                 required
               />
@@ -694,9 +874,6 @@ function Student() {
               >
                 Submit
               </a>
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
             </div>
           </div>
         </div>
