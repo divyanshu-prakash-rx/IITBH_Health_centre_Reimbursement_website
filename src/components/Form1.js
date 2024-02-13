@@ -1,6 +1,88 @@
 import React from 'react'
 
 function Form1() {
+    
+    const [formData, setFormData] = useState({
+        claimantFirstName: "",
+        claimantLastName: "",
+        claimaintID: "",
+        referenceAMA: "",
+        diagnosisName: "",
+        claimaintAge: "",
+        telephoneNo: "",
+        emailID: "",
+        treatmentStart: "",
+        treatmentEnd: "",
+        patientName: "",
+        natureofIllness: "",
+        referredHospital: "",
+        relationship: "",
+        referringAMADate: "",
+        claimT_1_1: "",
+        claimT_1_2: "",
+        claimT_1_3: "",
+        claimT_1_4: "",
+        claimT_1_5: "",
+        claimT_1_6: "",
+        claimT_1_7: "",
+        claimT_1_8: "",
+        claimT_2_1_1: "",
+        claimT_2_1_2: "",
+        claimT_2_2_1: "",
+        claimT_2_2_2: "",
+        claimT_2_3_1: "",
+        claimT_2_3_2: "",
+        claimT_2_4_1: "",
+        claimT_2_4_2: "",
+        claimT_2_5_1: "",
+        claimT_2_5_2: "",
+        claimT_2_6_1: "",
+        claimT_2_6_2: "",
+        claimT_2_7_1: "",
+        claimT_2_7_2: "",
+        claimT_2_8_1: "",
+        claimT_2_8_2: "",
+        HCReferral: "",
+        BillReceipt: "",
+        IDFile: "",
+        prescriptionFile: "",
+        AccountNo: "",
+        BankName: "",
+        expdate: "",
+        IFSC: "",
+        BankBranch: "",
+        Place: "",
+        SubmissionDate: "",
+        signatureFile: ""
+        // Add other form fields here
+      });
+    
+      const handleChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value,
+        });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await axios.post("http://localhost:5000/apis/staffipd/formfillipd", formData);
+          console.log(response.data);
+          // Handle success, e.g., show a success message to the user
+        } catch (error) {
+          console.error("Error submitting form:", error);
+          console.log(error);
+          // Handle error, e.g., show an error message to the user
+        }
+      };
+    
+    
+    
+    
+    
+    
+    
     return (
         <>    <div className='formwid' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
             <div className='container '>

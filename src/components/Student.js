@@ -67,11 +67,12 @@ function Student() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("/api/formfill", formData);
+      const response = await axios.post("http://localhost:5000/apis/users/formfill", formData);
       console.log(response.data);
       // Handle success, e.g., show a success message to the user
     } catch (error) {
       console.error("Error submitting form:", error);
+      console.log(error);
       // Handle error, e.g., show an error message to the user
     }
   };
@@ -92,7 +93,7 @@ function Student() {
           </h5>
           <p className="fw-bold">I. Status Information of the Claimant</p>
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className=" container row ms-3">
               <div className="col col-xs-12 m-3">
                 <label className="mb-1" htmlFor="claimantName">
@@ -105,7 +106,7 @@ function Student() {
                       type="text"
                       id="claimantName"
                       name="claimantName"
-                      placeholder="First Name"
+                      // placeholder="First Name"
                       value={formData.claimantFirstName}
                       onChange={handleChange}
                     />
@@ -116,7 +117,7 @@ function Student() {
                       type="text"
                       id="claimantName"
                       name="claimantName"
-                      placeholder="Last Name"
+                      // placeholder="Last Name"
                       value={formData.claimantLastName}
                       onChange={handleChange}
                     />
@@ -867,14 +868,15 @@ function Student() {
               />
             </div>
             <div className="text-center">
-              <a
-                href="/Thankyou"
-                type="button"
-                class="btn btn-primary btn-lg m-3"
+              <button
+                type="submit"
+                className="btn btn-primary btn-lg m-3"
+                onClick={handleSubmit}
               >
                 Submit
-              </a>
+              </button>
             </div>
+
           </div>
         </div>
       </div>
