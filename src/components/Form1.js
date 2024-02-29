@@ -139,22 +139,37 @@ function Form1() {
                             />
 
                             <label className="mb-1" htmlFor="entitlement">*Entitlement of ward:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="entitlement" name="entitlement" />
+                            <input className='form-control mb-2 inpbox' type="text" id="entitlement" name="entitlement" 
+                            value={formData.entitlement}
+                            onChange={handleChange}
+                            />
                         </div>
 
                         <div className="col col-xs-12 m-3">
 
                             <label className="mb-1" htmlFor="employeeCode">*Employee Code:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="employeeCode" name="employeeCode" />
+                            <input className='form-control mb-2 inpbox' type="text" id="employeeCode" name="employeeCode" 
+                            value={formData.employeecode}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="telNo">*Tel. No.:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="telNo" name="telNo" placeholder='00000 00000' />
+                            <input className='form-control mb-2 inpbox' type="text" id="telNo" name="telNo" placeholder='00000 00000' 
+                            value={formData.telephoneNo}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="emailId">*Email ID:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="emailId" name="emailId" placeholder='name@example.com' />
+                            <input className='form-control mb-2 inpbox' type="text" id="emailId" name="emailId" placeholder='name@example.com' 
+                            value={formData.emailid}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="payBand">*Pay in Pay Band & Grade Pay (Rs.):</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="payBand" name="payBand" />
+                            <input className='form-control mb-2 inpbox' type="text" id="payBand" name="payBand" 
+                            value={formData.payinpayband}
+                            onChange={handleChange}
+                            />
                         </div>
                     </div>
                 </form>
@@ -165,20 +180,35 @@ function Form1() {
                     <div className="row mb-3 ms-3">
                         <div className="col m-3">
                             <label className="mb-1" htmlFor="patientName">*Patient's Name:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="patientName" name="patientName" />
+                            <input className='form-control mb-2 inpbox' type="text" id="patientName" name="patientName" 
+                            value={formData.patientName}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="natureOfIllness">*Nature of illness & its period:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="natureOfIllness" name="natureOfIllness" />
+                            <input className='form-control mb-2 inpbox' type="text" id="natureOfIllness" name="natureOfIllness" 
+                            value={formData.natureofIllness}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="referredHospital">*Referred Hospital Name:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="referredHospital" name="referredHospital" />
+                            <input className='form-control mb-2 inpbox' type="text" id="referredHospital" name="referredHospital" 
+                            value={formData.referredHospital}
+                            onChange={handleChange}
+                            />
                         </div>
                         <div className="col m-3">
                             <label className="mb-1" htmlFor="relationship">*Relationship:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="relationship" name="relationship" />
+                            <input className='form-control mb-2 inpbox' type="text" id="relationship" name="relationship" 
+                            value={formData.relationship}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="referringAMADate">*Name of Referring AMA/Date:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="referringAMADate" name="referringAMADate" />
+                            <input className='form-control mb-2 inpbox' type="text" id="referringAMADate" name="referringAMADate" 
+                            value={formData.referringAMADate}
+                            onChange={handleChange}
+                            />
                         </div>
                     </div>
                 </form>
@@ -197,57 +227,88 @@ function Form1() {
                                 <tr>
                                     <td>1</td>
                                     <td>Accommodation/ Bed Charges </td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_1}
+                                    onChange={handleChange}
+                                    />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Registration Fee</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_2}
+                                    onChange={handleChange}
+                                    /></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Consultation/ Doctor</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_3}
+                                    onChange={handleChange}
+                                    /></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Surgeon Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_4}
+                                    onChange={handleChange}
+                                    /></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Nursing Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_5}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>Operation Theater Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_6}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>7</td>
                                     <td>X-ray</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_7}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>8</td>
                                     <td>Hospital Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_8}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>9</td>
                                     <td>Physiotherapy Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_9}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>10</td>
                                     <td>Blood Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_1_10}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                             </tbody>
@@ -265,62 +326,92 @@ function Form1() {
                                 <tr>
                                     <td>11</td>
                                     <td>Test & Procedure</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_1}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>12</td>
                                     <td>Angioplasty Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_2}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>13</td>
                                     <td>Medicine Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_3}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>14</td>
                                     <td>Medicine Purchased from market</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_4}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>15</td>
                                     <td>Imaging Service Charges
                                     </td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_5}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>16</td>
                                     <td>Diagnostic Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_6}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>17</td>
                                     <td>ECG</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_7}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>18</td>
                                     <td>Consumable Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_8}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>19</td>
                                     <td>Any other Charges paid to Hospital</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_9}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                                 <tr>
                                     <td>20</td>
                                     <td>Miscellaneous Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" /></td>
+                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    value={formData.claimT_2_10}
+                                    onChange={handleChange}
+                                    /></td>
 
                                 </tr>
                             </tbody>
@@ -349,18 +440,30 @@ function Form1() {
                     <div className="row ms-3 mb-4">
                         <div className="col m-3">
                             <label className="mb-2" htmlFor="file">*IIT Bhiai Health Center Referral</label>
-                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required />
+                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required 
+                            value={formData.HCReferral}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-2" htmlFor="file">*Original Bill Receipts</label>
-                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required />
+                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required 
+                            value={formData.BillReceipt}
+                            onChange={handleChange}
+                            />
                         </div>
 
                         <div className="col m-3">
                             <label className="mb-2" htmlFor="file">If dependent copy of dependent booklet</label>
-                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required />
+                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required 
+                            value={formData.dependentbooklet}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-2" htmlFor="file">*Copy of Prescription</label>
-                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required />
+                            <input className='form-control mb-2 inpbox' type="file" id="file" name="file" accept=".jpg, .jpeg, .png" required 
+                            value={formData.prescriptionFile}
+                            onChange={handleChange}
+                            />
                         </div>
                     </div>
                 </form>
@@ -394,11 +497,17 @@ function Form1() {
                         <div className="row">
                             <div className="col m-3">
                                 <label htmlFor="dateInput">Date</label>
-                                <input className='form-control inpbox' type="date" id="dateInput" />
+                                <input className='form-control inpbox' type="date" id="dateInput" 
+                                value={formData.SubmissionDate}
+                                onChange={handleChange}
+                                />
                             </div>
                             <div className="col m-3">
                                 <label htmlFor="signatureFile">Signature of the Claimant</label>
-                                <input className='form-control inpbox' type="file" id="signatureFile" name="signatureFile" accept="image/*" required />
+                                <input className='form-control inpbox' type="file" id="signatureFile" name="signatureFile" accept="image/*" required 
+                                value={formData.signatureFile}
+                                onChange={handleChange}
+                                />
 
                             </div>
                             <div className='text-center'>
