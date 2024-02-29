@@ -1,23 +1,30 @@
-import React from 'react'
+
+import React, { useState } from "react";
+import axios from "axios";
+//form 1 is for ipd
 
 function Form1() {
     
     const [formData, setFormData] = useState({
         claimantFirstName: "",
         claimantLastName: "",
-        claimaintID: "",
-        referenceAMA: "",
-        diagnosisName: "",
-        claimaintAge: "",
+        designation: "",
+        dept: "",
+        entitlement: "",
+        employeecode: "",
         telephoneNo: "",
-        emailID: "",
-        treatmentStart: "",
-        treatmentEnd: "",
+        emailid: "",
+        payinpayband: "",
+       
+        
+        //info about patient starts
         patientName: "",
         natureofIllness: "",
         referredHospital: "",
         relationship: "",
-        referringAMADate: "",
+        referringAMADate: "", 
+        
+        //Details of treatment starts
         claimT_1_1: "",
         claimT_1_2: "",
         claimT_1_3: "",
@@ -26,34 +33,36 @@ function Form1() {
         claimT_1_6: "",
         claimT_1_7: "",
         claimT_1_8: "",
-        claimT_2_1_1: "",
-        claimT_2_1_2: "",
-        claimT_2_2_1: "",
-        claimT_2_2_2: "",
-        claimT_2_3_1: "",
-        claimT_2_3_2: "",
-        claimT_2_4_1: "",
-        claimT_2_4_2: "",
-        claimT_2_5_1: "",
-        claimT_2_5_2: "",
-        claimT_2_6_1: "",
-        claimT_2_6_2: "",
-        claimT_2_7_1: "",
-        claimT_2_7_2: "",
-        claimT_2_8_1: "",
-        claimT_2_8_2: "",
+        claimT_1_9: "",
+        claimT_1_10: "",
+        claimT_2_1: "",
+        claimT_2_2: "",
+        claimT_2_3: "",
+        claimT_2_4: "",
+        claimT_2_5: "",
+        claimT_2_6: "",
+        claimT_2_7: "",
+        claimT_2_8: "",
+        claimT_2_9: "",
+        claimT_2_10: "",    
+        
+        //Attachments start
         HCReferral: "",
         BillReceipt: "",
-        IDFile: "",
-        prescriptionFile: "",
-        AccountNo: "",
-        BankName: "",
-        expdate: "",
-        IFSC: "",
-        BankBranch: "",
-        Place: "",
+        dependentbooklet: "",
+        prescriptionFile: "", 
+        
+        //Bank details
+        // AccountNo: "",
+        // BankName: "",
+        // expdate: "",
+        // IFSC: "",
+        // BankBranch: "",
+        // Place: "",
+
         SubmissionDate: "",
         signatureFile: ""
+
         // Add other form fields here
       });
     
@@ -103,14 +112,25 @@ function Form1() {
                             <label className="mb-1" htmlFor="claimantName">*Claimant's Name:</label>
                             <div className='row inpbox'>
                                 <div className='col'>
-                                    <input className='form-control me-1 mb-2' type="text" id="claimantName" name="claimantName" placeholder='First Name' />
+                                    <input className='form-control me-1 mb-2' type="text" id="claimantName" name="claimantName" placeholder='First Name' 
+                                    value={formData.claimantFirstName}
+                                    onChange={handleChange}
+                                    />
                                 </div>
+
                                 <div className='col'>
-                                    <input className='form-control mb-2' type="text" id="claimantName" name="claimantName" placeholder='Last Name' />
+                                    <input className='form-control mb-2' type="text" id="claimantName" name="claimantName" placeholder='Last Name' 
+                                    value={formData.claimantLastName}
+                                    onChange={handleChange}
+                                    />
                                 </div>
+
                             </div>
                             <label className="mb-1" htmlFor="designation">*Designation:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="designation" name="designation" />
+                            <input className='form-control mb-2 inpbox' type="text" id="designation" name="designation" 
+                            value={formData.designation}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="department">*Department:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="department" name="department" />
