@@ -133,7 +133,10 @@ function Form1() {
                             />
 
                             <label className="mb-1" htmlFor="department">*Department:</label>
-                            <input className='form-control mb-2 inpbox' type="text" id="department" name="department" />
+                            <input className='form-control mb-2 inpbox' type="text" id="department" name="department" 
+                            value={formData.dept}
+                            onChange={handleChange}
+                            />
 
                             <label className="mb-1" htmlFor="entitlement">*Entitlement of ward:</label>
                             <input className='form-control mb-2 inpbox' type="text" id="entitlement" name="entitlement" />
