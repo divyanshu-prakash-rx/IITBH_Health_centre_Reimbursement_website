@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Form1() {
+function Form2() {
     return (
         <>    <div className='formwid' style={{ backgroundColor: "#d9d5ed", border: "10px solid #5bbad5" }}>
             <div className='container '>
@@ -315,4 +315,4 @@ function Form1() {
             );
 }
 
-            export default Form1
+            export default Form2

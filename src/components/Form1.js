@@ -227,7 +227,7 @@ function Form1() {
                                 <tr>
                                     <td>1</td>
                                     <td>Accommodation/ Bed Charges </td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_1}
                                     onChange={handleChange}
                                     />
@@ -236,7 +236,7 @@ function Form1() {
                                 <tr>
                                     <td>2</td>
                                     <td>Registration Fee</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_2}
                                     onChange={handleChange}
                                     /></td>
@@ -244,7 +244,7 @@ function Form1() {
                                 <tr>
                                     <td>3</td>
                                     <td>Consultation/ Doctor</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_3}
                                     onChange={handleChange}
                                     /></td>
@@ -252,7 +252,7 @@ function Form1() {
                                 <tr>
                                     <td>4</td>
                                     <td>Surgeon Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_4}
                                     onChange={handleChange}
                                     /></td>
@@ -260,7 +260,7 @@ function Form1() {
                                 <tr>
                                     <td>5</td>
                                     <td>Nursing Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_5}
                                     onChange={handleChange}
                                     /></td>
@@ -269,7 +269,7 @@ function Form1() {
                                 <tr>
                                     <td>6</td>
                                     <td>Operation Theater Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_6}
                                     onChange={handleChange}
                                     /></td>
@@ -278,7 +278,7 @@ function Form1() {
                                 <tr>
                                     <td>7</td>
                                     <td>X-ray</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_7}
                                     onChange={handleChange}
                                     /></td>
@@ -287,7 +287,7 @@ function Form1() {
                                 <tr>
                                     <td>8</td>
                                     <td>Hospital Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_8}
                                     onChange={handleChange}
                                     /></td>
@@ -296,7 +296,7 @@ function Form1() {
                                 <tr>
                                     <td>9</td>
                                     <td>Physiotherapy Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_9}
                                     onChange={handleChange}
                                     /></td>
@@ -305,7 +305,7 @@ function Form1() {
                                 <tr>
                                     <td>10</td>
                                     <td>Blood Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_1_10}
                                     onChange={handleChange}
                                     /></td>
@@ -326,7 +326,7 @@ function Form1() {
                                 <tr>
                                     <td>11</td>
                                     <td>Test & Procedure</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_1}
                                     onChange={handleChange}
                                     /></td>
@@ -335,7 +335,7 @@ function Form1() {
                                 <tr>
                                     <td>12</td>
                                     <td>Angioplasty Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_2}
                                     onChange={handleChange}
                                     /></td>
@@ -344,7 +344,7 @@ function Form1() {
                                 <tr>
                                     <td>13</td>
                                     <td>Medicine Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_3}
                                     onChange={handleChange}
                                     /></td>
@@ -353,7 +353,7 @@ function Form1() {
                                 <tr>
                                     <td>14</td>
                                     <td>Medicine Purchased from market</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_4}
                                     onChange={handleChange}
                                     /></td>
@@ -363,7 +363,7 @@ function Form1() {
                                     <td>15</td>
                                     <td>Imaging Service Charges
                                     </td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_5}
                                     onChange={handleChange}
                                     /></td>
@@ -372,7 +372,7 @@ function Form1() {
                                 <tr>
                                     <td>16</td>
                                     <td>Diagnostic Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_6}
                                     onChange={handleChange}
                                     /></td>
@@ -381,7 +381,7 @@ function Form1() {
                                 <tr>
                                     <td>17</td>
                                     <td>ECG</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_7}
                                     onChange={handleChange}
                                     /></td>
@@ -390,7 +390,7 @@ function Form1() {
                                 <tr>
                                     <td>18</td>
                                     <td>Consumable Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_8}
                                     onChange={handleChange}
                                     /></td>
@@ -399,7 +399,7 @@ function Form1() {
                                 <tr>
                                     <td>19</td>
                                     <td>Any other Charges paid to Hospital</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_9}
                                     onChange={handleChange}
                                     /></td>
@@ -408,7 +408,7 @@ function Form1() {
                                 <tr>
                                     <td>20</td>
                                     <td>Miscellaneous Charges</td>
-                                    <td><input className='claimInput form-control' type="text" value="" 
+                                    <td><input className='claimInput form-control' type="text"  
                                     value={formData.claimT_2_10}
                                     onChange={handleChange}
                                     /></td>
