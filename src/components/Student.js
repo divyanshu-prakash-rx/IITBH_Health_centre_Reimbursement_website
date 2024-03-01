@@ -101,7 +101,7 @@ function Student() {
                 </label>
                 <div className="row inpbox">
                   <div className="col">
-                    <input className="form-control me-1 mb-2" type="text" id="claimantName" name="claimantName" // placeholder="First Name"
+                    <input className="form-control me-1 mb-2" type="text" id="claimantFirstName" name="claimantFirstName" // placeholder="First Name"
                       value={formData.claimantFirstName}
                       onChange={handleChange}
                     />
@@ -110,8 +110,8 @@ function Student() {
                     <input
                       className="form-control mb-2"
                       type="text"
-                      id="claimantName"
-                      name="claimantName"
+                      id="claimantLastName"
+                      name="claimantLastName"
                       // placeholder="Last Name"
                       value={formData.claimantLastName}
                       onChange={handleChange}
