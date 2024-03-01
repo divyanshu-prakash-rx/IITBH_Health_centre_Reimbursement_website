@@ -511,7 +511,7 @@ function Form1() {
 
                             </div>
                             <div className='text-center'>
-                                <a href="/Thankyou" type="button" class="btn btn-primary btn-lg m-3">Submit</a>
+                                <a href="/Thankyou" type="button" class="btn btn-primary btn-lg m-3" onClick={handleSubmit}>Submit</a>
                             </div>
                         </div>
                     </div >
