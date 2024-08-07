@@ -40,7 +40,7 @@ function LoginPage() {
                 <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
               </div>
               <div className="text-center">
-              <a className="btn btn-primary" href="/Options"> Login</a>
+              <a className="btn btn-primary" href="/options"> Login</a>
 </div>
             </form>
           </div>

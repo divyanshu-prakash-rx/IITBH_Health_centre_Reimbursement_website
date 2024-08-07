@@ -22,17 +22,16 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LoginPage />} />
-          <Route path="/Options" element={<Options />} />
+          <Route path="/options" element={<Options />} />
 
-          <Route path="/Student" element={<Student />} />
+          <Route path="/student" element={<Student />} />
 
-          <Route path="/FormOPD" element={<Form2 />} />
-          <Route path="/FormIPD" element={<Form1 />} />
-          <Route path="/Thankyou" element={<Thankyou/>} />
+          <Route path="/formopd" element={<Form2 />} />
+          <Route path="/formipd" element={<Form1 />} />
+          <Route path="/thankyou" element={<Thankyou/>} />
         </Routes >
-
       </Router >
-      </div>
+    </div>
     </>
   );
 }

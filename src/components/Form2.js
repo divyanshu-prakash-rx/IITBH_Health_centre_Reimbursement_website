@@ -573,7 +573,7 @@ function Form2() {
                         </div>
                         <div className="text-center">
                             <a
-                                href="/Thankyou"
+                                href="/thankyou"
                                 type="button"
                                 class="btn btn-primary btn-lg m-3"
                             >

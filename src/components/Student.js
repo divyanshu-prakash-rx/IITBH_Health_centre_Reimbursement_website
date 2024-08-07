@@ -864,7 +864,7 @@ function Student() {
             </div>
             <div className="text-center">
               <a
-              href="/Thankyou"
+              href="/thankyou"
                 type="submit"
                 className="btn btn-primary btn-lg m-3"
                 // onClick={handleSubmit}

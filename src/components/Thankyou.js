@@ -9,7 +9,7 @@ function Thankyou() {
             <div className="card-body text-center p-4">
                 <img className="mb-4" src={logo} style={{height:"150px"}} alt='logo'/>
                 <h5 className="card-title">Your form has been submitted successfully</h5>
-                <a href="/iitbh_health_center_claim_website" className="btn btn-primary btn-sm m-3">Go to Home Page</a><br />
+                <a href="/" className="btn btn-primary btn-sm m-3">Go to Home Page</a><br />
             </div>
             </div>
         </div>
