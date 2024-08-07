@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <div className="app">
-      <Router>
+      <Router basename='/IITBH_Health_centre_Reimbursement_website'>
         <Routes>
           <Route exact path="/" element={<LoginPage />} />
           <Route path="/Options" element={<Options />} />
