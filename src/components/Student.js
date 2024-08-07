@@ -863,13 +863,13 @@ function Student() {
               />
             </div>
             <div className="text-center">
-              <button
+              <a
+              href="/Thankyou"
                 type="submit"
                 className="btn btn-primary btn-lg m-3"
-                onClick={handleSubmit}
-              >
-                Submit
-              </button>
+                // onClick={handleSubmit}
+              > Submit
+              </a>
             </div>
 
           </div>

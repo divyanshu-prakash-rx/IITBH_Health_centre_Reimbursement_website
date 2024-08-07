@@ -1,6 +1,7 @@
 import React from "react";
 import HealthSnake from "./assets/Healthsnake.png";
 import logo from "./assets/logo2.jpeg";
+
 function LoginPage() {
   return (
     <>
