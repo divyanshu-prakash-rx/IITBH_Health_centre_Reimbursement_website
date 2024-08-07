@@ -18,10 +18,10 @@ import Thankyou from './components/Thankyou';
 function App() {
   return (
     <>
-    {/* <Options/> */}
+    {/* <Options/> */}<LoginPage />
       <Router>
         <Routes>
-          <Route path="/iitbh_health_center_claim_website/" element={<LoginPage />} />
+          {/* <Route path="/iitbh_health_center_claim_website/" element={} /> */}
           <Route path="/Options" element={<Options />} />
 
           <Route path="/Student" element={<Student />} />
