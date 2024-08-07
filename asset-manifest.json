@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iitbh_health_center_claim_website/static/css/main.97d5d253.css",
-    "main.js": "/iitbh_health_center_claim_website/static/js/main.23fe87ef.js",
-    "static/js/787.fd704355.chunk.js": "/iitbh_health_center_claim_website/static/js/787.fd704355.chunk.js",
-    "static/media/iitbh.jpeg": "/iitbh_health_center_claim_website/static/media/iitbh.de4c74fc525d864e711a.jpeg",
-    "static/media/Healthsnake.png": "/iitbh_health_center_claim_website/static/media/Healthsnake.26ef8bc114ce91d672a6.png",
-    "static/media/logo2.jpeg": "/iitbh_health_center_claim_website/static/media/logo2.7830505143b4c1fd6acb.jpeg",
-    "static/media/logo.png": "/iitbh_health_center_claim_website/static/media/logo.802a7208b7b741430a54.png",
-    "index.html": "/iitbh_health_center_claim_website/index.html",
-    "main.97d5d253.css.map": "/iitbh_health_center_claim_website/static/css/main.97d5d253.css.map",
-    "main.23fe87ef.js.map": "/iitbh_health_center_claim_website/static/js/main.23fe87ef.js.map",
-    "787.fd704355.chunk.js.map": "/iitbh_health_center_claim_website/static/js/787.fd704355.chunk.js.map"
+    "main.css": "/IITBH_Health_centre_Reimbursement_website/static/css/main.97d5d253.css",
+    "main.js": "/IITBH_Health_centre_Reimbursement_website/static/js/main.bdc12ccd.js",
+    "static/js/787.fd704355.chunk.js": "/IITBH_Health_centre_Reimbursement_website/static/js/787.fd704355.chunk.js",
+    "static/media/iitbh.jpeg": "/IITBH_Health_centre_Reimbursement_website/static/media/iitbh.de4c74fc525d864e711a.jpeg",
+    "static/media/Healthsnake.png": "/IITBH_Health_centre_Reimbursement_website/static/media/Healthsnake.26ef8bc114ce91d672a6.png",
+    "static/media/logo2.jpeg": "/IITBH_Health_centre_Reimbursement_website/static/media/logo2.7830505143b4c1fd6acb.jpeg",
+    "static/media/logo.png": "/IITBH_Health_centre_Reimbursement_website/static/media/logo.802a7208b7b741430a54.png",
+    "index.html": "/IITBH_Health_centre_Reimbursement_website/index.html",
+    "main.97d5d253.css.map": "/IITBH_Health_centre_Reimbursement_website/static/css/main.97d5d253.css.map",
+    "main.bdc12ccd.js.map": "/IITBH_Health_centre_Reimbursement_website/static/js/main.bdc12ccd.js.map",
+    "787.fd704355.chunk.js.map": "/IITBH_Health_centre_Reimbursement_website/static/js/787.fd704355.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97d5d253.css",
-    "static/js/main.23fe87ef.js"
+    "static/js/main.bdc12ccd.js"
   ]
 }
